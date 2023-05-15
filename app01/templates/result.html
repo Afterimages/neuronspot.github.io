@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <div>
+        <p>show</p>
+        <form action="" method="GET">
+            {% for i in ada %}
+            <p> {{i.gene_name}} : {{i.primary_key}}</p>
+            <br />
+            {% endfor %}
+            <!-- <input type="text"  placeholder="姓名" name="user" /> -->
+        </form>
+    </div>
+</body>
+</html>
